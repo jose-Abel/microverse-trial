@@ -1,0 +1,12 @@
+body{
+    /* background-image: url('../images/background-img.png'); */
+    background-color: #cccccc;
+    align-content: center;
+    justify-content: center;
+}
+
+h1 {
+  justify-content: center;
+  align-content: center;
+
+}
