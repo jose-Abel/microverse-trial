@@ -4,17 +4,16 @@ body{
     text-align: center;
     color: white;
     font-weight: bold;
-    
+
 }
 
 .header{
-  border: red solid 1px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
 
 #survey-form{
-border: red solid 1px;
+padding-top: 10px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 background-color: rgb(98, 26, 165);
 font-size: 18px;
@@ -23,7 +22,6 @@ font-size: 18px;
 .nameip{
   display: block;
   flex-wrap: wrap;
-  border: blue solid 1px;
   width: 100%;
 }
 #name-label{
@@ -48,9 +46,8 @@ font-size: 18px;
   border-radius: 8px
 }
 .container{
-  border: red solid 1px;
   text-align: start;
-  padding-left: 95px;
+  padding-left: 29%;
 }
 
 .questions{
@@ -60,6 +57,7 @@ font-size: 18px;
 #comments{
   width: 550px;
 }
+
 #submit{
   width: 555px;
   background: rgb(50, 177, 50);
