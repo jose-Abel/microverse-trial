@@ -13,9 +13,46 @@
       Thank you for taking the time to help us improve the or family
     </p>
     <form id="survey-form">
-      <input type="text" id="name">
-      <input type="email" id="email" >
-      <input id="number" type="number" min="0" max="10">
+      <div>
+      <input type="text" id="name-label" placeholder="Type your name">
+      </div>
+
+      <br>
+      <div>
+      <input type="email" id="email-label" placeholder="Type your email">
+      </div>
+
+      <br>
+
+      <div>
+      <input id="number-label" type="number" min="0" max="10" placeholder="Score">
+      </div>
+
+      <br>
+      <div>
+      <label for="options">Which option best describes the job that you are seeking?</label>
+      </div>
+
+      <br>
+      <select name="options" id="dropdown">
+        <option value="frontend">FrontEnd</option>
+         <option value="backend">BackEnd</option>
+         <option value="devops">DevOps</option>
+         <option value="cybersecurity">CyberSecurity</option>
+      </select>
+
+      <br>
+
+      <div>
+      <p>Would you recommend Microverse to a friend?</p>
+      <input type="radio" name="evaluation" value="Definitely">
+      <label for="Definitely">Definitely</label><br>
+      <input type="radio" name="evaluation" value="Maybe">
+      <label for="Maybe">Maybe</label><br>
+      <input type="radio" name="evaluation" value="Not sure">
+      <label for="Not sure">Not sure</label><br>
+      </div>
+
     </form>
 
   </body>
