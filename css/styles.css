@@ -1,12 +1,69 @@
 body{
     /* background-image: url('../images/background-img.png'); */
-    background-color: #cccccc;
-    align-content: center;
-    justify-content: center;
+    background-color: rgba(49, 41, 160, 0.6) ;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    
 }
 
-h1 {
-  justify-content: center;
-  align-content: center;
+.header{
+  border: red solid 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
 
+#survey-form{
+border: red solid 1px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: rgb(98, 26, 165);
+font-size: 18px;
+}
+
+.nameip{
+  display: block;
+  flex-wrap: wrap;
+  border: blue solid 1px;
+  width: 100%;
+}
+#name-label{
+  width: 550px;
+  height: 30px;
+  border-radius: 8px;
+}
+#email-label{
+  width: 550px;
+  height: 30px;
+  border-radius: 8px
+}
+#number-label{
+  width: 550px;
+  height: 30px;
+  border-radius: 8px
+}
+
+#dropdown{
+  width: 550px;
+  height: 30px;
+  border-radius: 8px
+}
+.container{
+  border: red solid 1px;
+  text-align: start;
+  padding-left: 95px;
+}
+
+.questions{
+  padding-left: 10px;
+}
+
+#comments{
+  width: 550px;
+}
+#submit{
+  width: 555px;
+  background: rgb(50, 177, 50);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
 }
